@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Uw auto verkopen | Rivan Auto's</title>
+<meta name="description" content="Uw auto verkopen bij Rivan Auto&#x27;s.">
+<meta property="og:title" content="Rivan Auto's Breda">
+<meta property="og:description" content="Gemiddeld 100 jonge occasions en 25 inruilers in een overdekte showroom.">
+<meta property="og:image" content="images/pand.jpg">
+<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="vb-banner" role="note"><span>Voorbeeldontwerp, speciaal voor Rivan Auto's gemaakt door Cafe Boon</span><a href="https://cafeboon.com">Meer weten</a></div>
+<header class="top">
+<a class="logo" href="index.html">Rivan Auto's</a>
+<nav><a href="index.html">Home</a><a href="aanbod.html">Occasions</a><a href="contact.html">Contact</a></nav>
+<a class="call" href="tel:+31765877546">076 - 587 75 46</a>
+</header>
+<div aria-label="Pagina's" class="sn-bar" role="navigation"><a class="sn-link" href="index.html">Home</a><a class="sn-link" href="aanbod.html">Occasions</a><a class="sn-link" href="contact.html">Contact</a></div>
+<div class="sn-head"><h1>Uw auto verkopen</h1></div>
+<section class="sn-formsec" id="formulier"><div class="sn-formwrap"><p class="sn-lead">Wilt u uw auto verkopen? Laat de gegevens van uw auto achter.</p><form class="sn-form" id="sn-form"><div class="sn-field"><label for="naam">Naam</label><input id="naam" name="naam" type="text" required autocomplete="name"></div><div class="sn-field"><label for="tel">Telefoonnummer</label><input id="tel" name="tel" type="tel" required autocomplete="tel"></div><div class="sn-field full"><label for="email">E-mailadres</label><input id="email" name="email" type="email" required autocomplete="email"></div><div class="sn-field full"><label for="auto">Merk en type auto</label><input id="auto" name="auto" type="text" required></div><div class="sn-field"><label for="bouwjaar">Bouwjaar (optioneel)</label><input id="bouwjaar" name="bouwjaar" type="text"></div><div class="sn-field"><label for="km">Kilometerstand (optioneel)</label><input id="km" name="km" type="text"></div><div class="sn-field full"><label for="opm">Opmerking (optioneel)</label><textarea id="opm" name="opm" rows="5"></textarea></div><div class="sn-field full"><button class="btn" type="submit">Aanvraag versturen</button></div></form></div></section>
+<script>(function(){var f=document.getElementById('sn-form');if(!f)return;f.addEventListener('submit',function(e){e.preventDefault();if(!f.checkValidity()){f.reportValidity();return;}var d=document.createElement('div');d.className='sn-done';d.setAttribute('role','status');d.tabIndex=-1;d.innerHTML='<h2>Bedankt voor uw aanvraag</h2><p>Dit is een voorbeeldwebsite van Cafe Boon. Uw aanvraag is daarom niet verstuurd. Neem voor een echte auto-inkoop contact op via <a href="tel:+31765877546">076 - 587 75 46</a>.</p>';f.parentNode.replaceChild(d,f);d.focus();});})();</script>
+<footer>
+<p>Rivan Auto's Breda, Konijnenberg 98b</p>
+<p class="credit"><a href="https://cafeboon.com">Voorbeeldontwerp door Cafe Boon</a></p>
+</footer>
+<a class="fab" href="tel:+31765877546">Bel</a>
+<script>try{(function(){
+  var h={1:[9,17],2:[9,18],3:[9,17],4:[9,18],5:[9,18],6:[9,17]};
+  var n=new Date(),d=n.getDay(),m=n.getHours()+n.getMinutes()/60,el=document.getElementById('status');
+  var r=document.querySelector('tr[data-d="'+d+'"]');if(r)r.className='today';
+  if(h[d]&&m>=h[d][0]&&m<h[d][1]){el.textContent='Nu geopend tot '+h[d][1]+':00';el.className='tag yes'}else{el.textContent='Nu gesloten'}
+})();}catch(e){}</script>
+</body></html>
